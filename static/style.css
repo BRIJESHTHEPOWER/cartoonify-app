@@ -1,0 +1,125 @@
+body{
+    background: linear-gradient(
+        135deg,
+        #f5f3ff,
+        #eef2ff
+    );
+    min-height:100vh;
+    font-family:'Segoe UI',sans-serif;
+}
+
+/* Navbar */
+
+.custom-nav{
+    background:#08122d;
+    padding:15px;
+}
+
+/* Hero */
+
+.hero{
+    padding:50px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:700;
+    background:linear-gradient(
+        90deg,
+        #8b5cf6,
+        #3b82f6
+    );
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero p{
+    color:#666;
+    font-size:18px;
+}
+
+/* Main Glass Card */
+
+.glass-card{
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:
+        0 10px 40px rgba(0,0,0,0.1);
+}
+
+/* Upload Side */
+
+.upload-side{
+    padding:30px;
+    border-right:1px solid #eee;
+}
+
+.upload-box{
+    border:2px dashed #8b5cf6;
+    border-radius:15px;
+    padding:60px 20px;
+    text-align:center;
+    background:#faf7ff;
+}
+
+.upload-box input{
+    width:100%;
+}
+
+.cartoon-btn{
+    background:linear-gradient(
+        90deg,
+        #8b5cf6,
+        #3b82f6
+    );
+    border:none;
+    color:white;
+    padding:14px;
+    border-radius:12px;
+    font-weight:600;
+}
+
+.cartoon-btn:hover{
+    opacity:.9;
+}
+
+/* Tips */
+
+.tips{
+    background:#fafafa;
+    padding:20px;
+    border-radius:15px;
+}
+
+.tips ul{
+    padding-left:20px;
+}
+
+/* Preview */
+
+.preview-side{
+    padding:30px;
+}
+
+.preview-box{
+    height:500px;
+    border:2px solid #e5e7eb;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    background:white;
+}
+
+.preview-box img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+
+.placeholder{
+    color:#999;
+    font-size:18px;
+}
