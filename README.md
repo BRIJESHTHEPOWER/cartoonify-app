@@ -32,6 +32,7 @@ A Flask web application that transforms any photo into cartoon-style artwork usi
 ```
 cartoonify-app/
 ├── app.py              # Flask app — upload handling & cartoonify logic
+├── requirements.txt    # Project dependencies
 ├── templates/
 │   └── index.html      # Upload form + preview UI (Bootstrap 5)
 ├── static/
@@ -73,7 +74,7 @@ venv\Scripts\activate      # Windows
 ### 3. Install dependencies
 
 ```bash
-pip install flask opencv-python werkzeug
+pip install -r requirements.txt
 ```
 
 ### 4. Run the app
